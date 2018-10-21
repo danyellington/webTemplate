@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#fonts {
+  cursor: pointer;
+}
+
+#fade {
+  display: none;
+  cursor: pointer;
+}
+
+#fonts2 {
+  cursor: pointer;
+}
+
+#fade2 {
+  display: none;
+  cursor: pointer;
+}
+
+h1 {
+  text-shadow: 3em;
+}
+
+body {
+  background-color: #212121;
+}
+
+h5 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+.parallax-container {
+  border-style: solid;
+  border-color: #26a69a;
+  border-right: none;
+  border-left: none;
+}
+
+#name {
+  cursor: pointer;
+}
+
+/* #car {
+  background: url(https://sqonline.ucsd.edu/wp-content/uploads/2015/04/sugar-wall.jpg);
+  background-repeat: no-repeat;
+} */
