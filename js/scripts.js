@@ -31,4 +31,16 @@ $(document).ready(function() {
       $("#fade2").fadeToggle();
   
     });
+    $(function() {
+      $("#fonts3").click(function() {
+        $("#fade3").fadeToggle();
+    
+      });
+    });
+    $(function() {
+      $("#fonts4").click(function() {
+        $("#fade4").fadeToggle();
+    
+      });
+    });
   });

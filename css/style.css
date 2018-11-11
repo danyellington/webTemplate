@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #d7b740;
 }
 
 .parallax-container {
@@ -74,12 +74,29 @@ footer.page-footer {
   cursor: pointer;
 }
 
+#fonts3 {
+  cursor: pointer;
+}
+
+#fade3 {
+  display: none;
+  cursor: pointer;
+}
+
+#fonts4 {
+  cursor: pointer;
+}
+
+#fade4 {
+  display: none;
+  cursor: pointer;
+}
 h1 {
   text-shadow: 3em;
 }
 
 body {
-  background-color: #212121;
+  background-color: #4a148c;
 }
 
 h5 {
@@ -95,7 +112,7 @@ h4 {
 }
 .parallax-container {
   border-style: solid;
-  border-color: #26a69a;
+  border-color: #d7b740;
   border-right: none;
   border-left: none;
 }
